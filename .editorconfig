@@ -1,0 +1,13 @@
+root = true
+
+[*]
+end_of_line = lf
+indent_style = space
+indent_size = 3
+tab_width = 3
+
+# CS1591: Missing xml comment
+dotnet_diagnostic.CS1591.severity = none
+
+# CS8618: Non nullable field _name is not initialized. Consider declare the field as nullable type
+dotnet_diagnostic.CS8618.severity = none
